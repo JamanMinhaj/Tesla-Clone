@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesla</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="snap-y snap-mandatory h-screen overflow-scroll transition-all duration-500 scroll-smooth">
+        <!-- header start -->
+    <header class="relative">
+        <!-- logo -->
+        <nav class="flex justify-between items-center w-full fixed top-0 z-10 h-28 px-10">
+            <!-- Logo -->
+            <div class="logo">
+                <a href="#">
+                    <svg class=" h-6 tds-icon tds-icon-logo-wordmark tds-site-logo-icon" viewBox="0 0 342 35" xmlns="http://www.w3.org/2000/svg"><path d="M0 .1a9.7 9.7 0 0 0 7 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 0 0 7-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 0 0 6-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 0 0-8.7 7h39.9v-21h-31.2v-7h24zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 13.8h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 14.1h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zM308.5 7h26a9.6 9.6 0 0 0 7-7h-40a9.6 9.6 0 0 0 7 7z" fill="currentColor"></path></svg>
+                </a>
+            </div>
+            <!-- logo end -->
+
+            <!-- nav links start -->
+            <div class="nav_links hidden lg:block">
+                <a href="#model_y" class="text-2xl font-semibold text-slate-950 py-2 px-5 rounded-[1.2rem] bg-transparent hover:bg-slate-300 hover:bg-opacity-40 duration-500">Model Y</a>
+                <a href="#model_three" class="text-2xl font-semibold text-slate-950 py-2 px-5 rounded-[1.2rem] bg-transparent hover:bg-slate-300 hover:bg-opacity-40 duration-500">Model 3</a>
+                <a href="#model_x" class="text-2xl font-semibold text-slate-950 py-2 px-5 rounded-[1.2rem] bg-transparent hover:bg-slate-300 hover:bg-opacity-40 duration-500">Model X</a>
+                <a href="#model_s" class="text-2xl font-semibold text-slate-950 py-2 px-5 rounded-[1.2rem] bg-transparent hover:bg-slate-300 hover:bg-opacity-40 duration-500">Model S</a>
+                <a href="#shop" class="text-2xl font-semibold text-slate-950 py-2 px-5 rounded-[1.2rem] bg-transparent hover:bg-slate-300 hover:bg-opacity-40 duration-500">Shop</a>
+            </div>
+            <!-- nav links end -->
+
+            <!-- links start-->
+            <div class=" flex justify-between items-center">
+                <a href="#" class="lg:bg-transparent text-3xl text-black bg-slate-500 bg-opacity-40 hover:bg-slate-300 py-2 px-2 rounded-md flex items-center justify-center duration-500 hidden lg:inline-block">
+                    Shop
+                </a>
+                <a href="#" class="lg:bg-transparent text-3xl text-black bg-slate-500 bg-opacity-40 hover:bg-slate-300 py-2 px-2 rounded-md flex items-center justify-center duration-500 mx-4 hidden lg:inline-block">
+                    Account
+                </a>
+                <a href="#" class="lg:bg-transparent text-3xl text-black bg-slate-500 bg-opacity-40 hover:bg-slate-300 py-2 px-2 rounded-md flex items-center justify-center duration-500">
+                    Menu
+                </a>
+            </div>
+            <!-- links end -->
+        </nav>
+    </header>
+    <!-- header end -->
+    <!-- hero section model Y start -->
+    <section class="model_y relative snap-always snap-start w-full h-screen" id="model_y">
+        <img src="img/ModelY.jpg" class="w-full h-full object-cover model_y_img" alt="car model Y">
+        <div class="absolute top-[25%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-center car_y_details">
+            <h1 class="text-5xl sm:text-7xl font-bold mb-3">
+                Model Y
+            </h1>
+            <h3 class="text-4xl text-black mb-2 font-semibold">
+                From $31,490¹
+            </h3>
+            <p class="text-2xl text-black font-semibold">
+                After Federal Tax Credit & Est. Gas Savings
+            </p>
+        </div>
+        <div class="w-full absolute bottom-[10%] left-[50%] translate-x-[-50%] translate-y-[-50%] flex flex-col justify-center sm:flex-row gap-5">
+            <a href="#" class="inline-block sm:w-[20rem] h-16 bg-white text-black text-center font-bold p-3 pt-[1rem] text-[1.6rem] rounded-[10rem]" role="button">Order Now</a>
+            <a href="#" class="inline-block sm:w-[20rem] h-16 text-center font-bold p-3 pt-[1rem] text-[1.6rem] rounded-[10rem] bg-[#1D60BB] text-white" role="button">Demo Drive</a>
+        </div>
+        <div class="absolute bottom-[3%] left-[50%] translate-x-[-50%] translate-y-[-50%] hidden sm:block">
+            <a href="#model_three">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-12 h-12 animate-bounce">
+                    <path fill-rule="evenodd" d="M12.53 16.28a.75.75 0 0 1-1.06 0l-7.5-7.5a.75.75 0 0 1 1.06-1.06L12 14.69l6.97-6.97a.75.75 0 1 1 1.06 1.06l-7.5 7.5Z" clip-rule="evenodd" />
+                  </svg>
+            </a>              
+        </div>
+
+    </section>
+    <!-- hero section model Y end -->
+    
+    <!-- model 3 start -->
+
+    <section class="model_three relative snap-always snap-start w-full h-screen" id="model_three">
+
+        <img src="img/Model3.jpg" class="w-full h-full object-cover model_three_img" alt="car mode #3">
+    <div class="absolute top-[25%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-center">
+        <h1 class="text-5xl sm:text-7xl font-bold mb-3">
+            Model 3
+        </h1>
+        <h3 class="text-4xl text-black mb-2 font-semibold">
+            From $299/mo²
+        </h3>
+        <p class="text-2xl text-black font-semibold">
+            Est. Lease Price Before Gas Savings
+        </p>
+    </div>
+    <div class="w-full absolute bottom-[10%] left-[50%] translate-x-[-50%] translate-y-[-50%] flex flex-col justify-center sm:flex-row gap-5">
+        <a href="#" class="inline-block sm:w-[20rem] h-16 bg-white text-black text-center font-bold p-3 pt-[1rem] text-[1.6rem] rounded-[10rem]" role="button">Order Now</a>
+        <a href="#" class="inline-block sm:w-[20rem] h-16 bg-white text-black text-center font-bold p-3 pt-[1rem] text-[1.6rem] rounded-[10rem]  bg-gray-900 text-white bg-gradient-to-l from-[#1F1F1F] to-[#5B010A]" role="button">Demo Drive</a>
+    </div>
+    <div class="absolute bottom-[3%] left-[50%] translate-x-[-50%] translate-y-[-50%] hidden sm:block">
+        <a href="#model_x">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-12 h-12 animate-bounce">
+                <path fill-rule="evenodd" d="M12.53 16.28a.75.75 0 0 1-1.06 0l-7.5-7.5a.75.75 0 0 1 1.06-1.06L12 14.69l6.97-6.97a.75.75 0 1 1 1.06 1.06l-7.5 7.5Z" clip-rule="evenodd" />
+              </svg>
+        </a>              
+    </div>
+
+    </section>
+
+    <!-- model 3 end -->
+
+    <!-- model x start -->
+
+    <section class="model_x relative snap-always snap-start w-full h-screen" id="model_x">
+
+        <img src="img/ModelX.jpg" class="w-full h-full object-cover model_s_img" alt="car model s">
+    <div class="absolute top-[25%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-center">
+        <h1 class="text-5xl sm:text-7xl font-bold mb-3">
+            Model X
+        </h1>
+        <h3 class="text-4xl text-black mb-2 font-semibold">
+            From $63,990³
+        </h3>
+        <p class="text-2xl text-black font-semibold">
+            After Federal Tax Credit & Est. Gas Savings
+        </p>
+    </div>
+    <div class="w-full absolute bottom-[10%] left-[50%] translate-x-[-50%] translate-y-[-50%] flex flex-col justify-center sm:flex-row gap-5">
+        <a href="#" class="inline-block sm:w-[20rem] h-16 bg-white text-black text-center font-bold p-3 pt-[1rem] text-[1.6rem] rounded-[10rem]" role="button">Order Now</a>
+        <a href="#" class="inline-block sm:w-[20rem] h-16 bg-white text-black text-center font-bold p-3 pt-[1rem] text-[1.6rem] rounded-[10rem] text-black bg-gradient-to-l from-[#A1A1A1] to-[#A1A1A1] text-gray-950" role="button">Demo Drive</a>
+    </div>
+    <div class="absolute bottom-[3%] left-[50%] translate-x-[-50%] translate-y-[-50%] hidden sm:block">
+        <a href="#model_s">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-12 h-12 animate-bounce">
+                <path fill-rule="evenodd" d="M12.53 16.28a.75.75 0 0 1-1.06 0l-7.5-7.5a.75.75 0 0 1 1.06-1.06L12 14.69l6.97-6.97a.75.75 0 1 1 1.06 1.06l-7.5 7.5Z" clip-rule="evenodd" />
+              </svg>
+        </a>              
+    </div>
+
+    </section>
+
+    <!-- model x end -->
+
+    <!-- model S start-->
+    <section class="model_s relative snap-always snap-start w-full h-screen" id="model_s">
+
+        <img src="img/ModelS.jpg" class="w-full h-full object-cover model_s_img" alt="car model S">
+    <div class="absolute top-[25%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-center car_model_s">
+        <h1 class="text-white text-5xl sm:text-7xl font-bold mb-3">
+            Model S
+        </h1>
+        <h3 class="text-white text-4xl text-black mb-2 font-semibold">
+            From $66,490⁴
+        </h3>
+        <p class="text-white text-2xl text-black font-semibold">
+            After Est. Gas Savings
+        </p>
+    </div>
+    <div class="w-full absolute bottom-[10%] left-[50%] translate-x-[-50%] translate-y-[-50%] flex flex-col justify-center sm:flex-row gap-5">
+        <a href="#" class="inline-block sm:w-[20rem] h-16 bg-white text-black text-center font-bold p-3 pt-[1rem] text-[1.6rem] rounded-[10rem]" role="button">Order Now</a>
+        <a href="#" class="inline-block sm:w-[20rem] h-16 text-center font-bold p-3 pt-[1rem] text-[1.6rem] rounded-[10rem] bg-[#C13341] text-white" role="button">Demo Drive</a>
+    </div>
+    <div class="absolute bottom-[3%] left-[50%] translate-x-[-50%] translate-y-[-50%] hidden sm:block">
+        <a href="#model_3">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-12 h-12 animate-bounce">
+                <path fill-rule="evenodd" d="M12.53 16.28a.75.75 0 0 1-1.06 0l-7.5-7.5a.75.75 0 0 1 1.06-1.06L12 14.69l6.97-6.97a.75.75 0 1 1 1.06 1.06l-7.5 7.5Z" clip-rule="evenodd" />
+              </svg>
+        </a>              
+    </div>
+
+    </section>
+    <!-- model S end -->
+    </main>
+
+    <!-- footer start -->
+    <footer class="footer">
+        <h2 class="bg-black text-white text-center text-4xl py-6">Footer</h2>
+    </footer>
+    <!-- footer end -->
+</body>
+</html>

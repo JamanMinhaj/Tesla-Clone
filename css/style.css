@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+html {
+    font-size: 62.5%;
+    font-family: "Montserrat", sans-serif;
+}
+@media (max-width: 600px) {
+    html {
+        font-size: 55%;
+    }
+    h1,
+    h2 {
+        font-size: 1.1rem;
+    }
+} 
+/* @layer components {
+    .span_features {
+        @apply snap-y snap-mandatory h-screen overflow-scroll transition-all duration-500 scroll-smooth;
+    }
+    .nav_bar {
+        @apply flex justify-between items-center w-full fixed top-0 z-10 h-28 px-10;
+    }
+    .nav_items {
+        @apply text-2xl font-semibold text-slate-950 py-2 px-5 rounded-[1.2rem] bg-transparent hover:bg-slate-300 hover:bg-opacity-40 duration-500;
+    }
+    .links_item {
+        @apply  lg:bg-transparent text-3xl
+         text-black bg-slate-500 bg-opacity-40 hover:bg-slate-300 py-2 px-2 rounded-md flex items-center justify-center duration-500;
+    }
+    .car_section {
+        @apply relative snap-always snap-start w-full h-screen; 
+    }
+    .car_img {
+        @apply w-full h-full object-cover;
+    }
+    .car_model_s h1,
+    .car_model_s h3,
+    .car_model_s p {
+        @apply text-white;
+    }
+    .car_details {
+        @apply absolute top-[25%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-center;
+    }
+    .car_name {
+        @apply text-5xl sm:text-7xl font-bold mb-3;
+    }
+    .car_price {
+        @apply text-4xl text-black mb-2 font-semibold;
+    }
+    .car_tagline {
+        @apply text-2xl text-black font-semibold;
+    }
+    .car_btn_group {
+        @apply w-full absolute bottom-[10%] left-[50%] translate-x-[-50%] translate-y-[-50%] flex flex-col justify-center sm:flex-row gap-5;
+    }
+    .btn {
+        @apply inline-block sm:w-[20rem] h-16 bg-white text-black text-center font-bold p-3 pt-[1rem] text-[1.6rem] rounded-[10rem]
+    }
+    .demo_drive {
+        @apply bg-gray-900 text-white
+    }
+    .demo_drive_three {
+        @apply bg-gradient-to-l from-[#1F1F1F] to-[#5B010A]; 
+    }
+    .demo_drive_x {
+        @apply bg-gradient-to-l from-[#A1A1A1] to-[#A1A1A1] text-gray-950;
+    }
+    .demo_drive_s {
+        @apply bg-[#C13341] text-white;
+    }
+    .down_arrow {
+        @apply absolute bottom-[3%] left-[50%] translate-x-[-50%] translate-y-[-50%];
+    }
+} */
